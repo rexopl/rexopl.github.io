@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Glyph Creator
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <h1 class="text-center">Glyph Creator for HD44780</h1>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><b>Display</b></div>
+        <div class="panel-body">
+          <div id="display"></div>
+        </div>
+      </div>
+      <div id="gridArea"></div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><b>Display output</b></div>
+        <div class="panel-body">
+          <div id="display-output"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container container">
+        <p class="text-muted text-center"><a href="http://forum.arduino.cc/index.php?topic=516782.0" target="_blank">Arduino Forum thread</a> <strong>&sdot;</strong> <a href="https://github.com/kakedev/GlyphGenerator" target="_blank">Github repository</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
